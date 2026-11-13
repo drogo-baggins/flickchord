@@ -24,3 +24,6 @@ footer{margin-top:48px;padding-top:16px;padding-bottom:32px;border-top:1px solid
 footer a{color:var(--sub)}
 th{white-space:nowrap}
 @media (min-width:700px){nav{order:0;width:auto}}
+figure{margin:20px 0}
+figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+figcaption{font-size:14px;color:var(--sub);margin-top:6px}
