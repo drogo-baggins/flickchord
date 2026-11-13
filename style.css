@@ -1,0 +1,26 @@
+:root{--bg:#fafaf8;--fg:#1a1a1a;--sub:#555;--line:#ddd;--accent:#b5441c;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141517;--fg:#eee;--sub:#aaa;--line:#333;--accent:#f08a5d;--card:#1d1f22}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Segoe UI",sans-serif;line-height:1.75;font-size:17px}
+header,main,footer{max-width:720px;margin:0 auto;padding:0 16px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding-top:20px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+header .logo{font-weight:700;font-size:20px;color:var(--fg);text-decoration:none;margin-right:auto}
+nav{order:3;width:100%}
+nav a{white-space:nowrap;color:var(--sub);text-decoration:none;display:inline-block;padding:10px 12px 10px 0;margin-right:6px;font-size:15px}
+nav a[aria-current]{color:var(--fg);font-weight:600}
+.lang{font-size:14px;color:var(--sub)}
+h1{word-break:keep-all;overflow-wrap:anywhere;font-size:28px;line-height:1.35;margin:32px 0 8px}
+h2{font-size:20px;margin:32px 0 8px}
+p,li{color:var(--fg)}
+.lead{font-size:19px;color:var(--sub);margin-top:0}
+.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);padding:12px 16px;border-radius:6px;margin:20px 0}
+a{color:var(--accent)}
+dl dt{font-weight:700;margin-top:24px}
+dl dd{margin:4px 0 0}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top;font-size:15px}
+.store{display:inline-block;margin:16px 0;padding:10px 18px;border-radius:8px;background:var(--fg);color:var(--bg);text-decoration:none;font-weight:600}
+footer{margin-top:48px;padding-top:16px;padding-bottom:32px;border-top:1px solid var(--line);font-size:14px;color:var(--sub)}
+footer a{color:var(--sub)}
+th{white-space:nowrap}
+@media (min-width:700px){nav{order:0;width:auto}}
