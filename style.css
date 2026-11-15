@@ -27,3 +27,6 @@ th{white-space:nowrap}
 figure{margin:20px 0}
 figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
 figcaption{font-size:14px;color:var(--sub);margin-top:6px}
+.video{max-width:320px;margin:20px auto}
+.video iframe{display:block;width:100%;aspect-ratio:9/16;height:auto;border:0;border-radius:10px;background:#000}
+.video figcaption{text-align:center}
